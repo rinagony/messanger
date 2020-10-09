@@ -1,6 +1,6 @@
 <template>
-  <div id="app">
-    <router-view />
+  <div id="home">
+    <h2>Home</h2>
   </div>
 </template>
 
@@ -8,11 +8,12 @@
 
 
 export default {
-  name: 'App',
+  name: 'Hme',
   components: {
   }
 }
 </script>
 
 <style>
+@import './../assets/styles/styles.scss';
 </style>
